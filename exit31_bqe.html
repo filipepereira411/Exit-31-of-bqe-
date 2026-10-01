@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saída 31 - Brooklyn-Queens Expressway (BQE)</title>
+    <style>
+        :root {
+            --primary: #1e293b;
+            --secondary: #0f172a;
+            --accent: #f59e0b;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #334155;
+            --danger: #ef4444;
+            --success: #22c55e;
+            --info: #3b82f6;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 5px solid var(--accent);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+
+        header p {
+            margin: 0.5rem 0 0 0;
+            color: #94a3b8;
+            font-size: 1.1rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .alert-box {
+            background-color: #fef3c7;
+            border-left: 4px solid var(--accent);
+            padding: 1rem;
+            border-radius: 4px;
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+
+        @media (min-width: 768px) {
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .full-width {
+                grid-column: span 2;
+            }
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: var(--secondary);
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+        }
+
+        .behavior-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .behavior-item {
+            margin-bottom: 1rem;
+            padding: 1rem;
+            border-radius: 6px;
+            background-color: #f1f5f9;
+        }
+
+        .behavior-item.waiter { border-left: 4px solid var(--success); }
+        .behavior-item.cutter { border-left: 4px solid var(--danger); }
+        .behavior-item.blocker { border-left: 4px solid var(--info); }
+
+        .behavior-title {
+            font-weight: bold;
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+            color: #64748b;
+            border-top: 1px solid #e2e8f0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>BQE - Saída 31</h1>
+        <p>Wythe Ave / Kent Ave (Williamsburg, Brooklyn)</p>
+    </header>
+
+    <div class="container">
+        <div class="alert-box">
+            ⚠️ <strong>Alerta de Trânsito Permanente:</strong> Esta saída é reconhecida como um dos piores e mais frustrantes gargalos de tráfego de Nova Iorque.
+        </div>
+
+        <div class="grid">
+            <div class="card full-width">
+                <h2>O Fenómeno da Saída 31</h2>
+                <p>A Saída 31 da Brooklyn-Queens Expressway (I-278) liga o tráfego diretamente ao coração de Williamsburg. O crescimento rápido do bairro, combinado com semáforos curtos à saída da autoestrada, cria engarrafamentos que bloqueiam as faixas principais da BQE diariamente. O caos local tornou-se tão icónico que inspirou canções satíricas virais na internet.</p>
+            </div>
+
+            <div class="card">
+                <h2>O "Teste do Carrinho de Compras" do Trânsito</h2>
+                <p>A dinâmica de tráfego nesta saída divide os condutores em três arquétipos psicológicos e comportamentais distintos:</p>
+                
+                <ul class="behavior-list">
+                    <li class="behavior-item waiter">
+                        <span class="behavior-title" style="color: var(--success);">Os que Esperam (Waiters)</span>
+                        Condutores pacientes que entram na fila logo no início e avançam lentamente conforme o fluxo permite.
+                    </li>
+                    <li class="behavior-item cutter">
+                        <span class="behavior-title" style="color: var(--danger);">Os que Cortam (Cutters)</span>
+                        Condutores que ultrapassam toda a fila pelas faixas expressas e forçam a entrada no último segundo, travando a BQE principal.
+                    </li>
+                    <li class="behavior-item blocker">
+                        <span class="behavior-title" style="color: var(--info);">Os que Bloqueiam (Blockers)</span>
+                        Condutores na fila que colam ao veículo da frente para impedir fisicamente a entrada dos "cutters".
+                    </li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Futuro e Infraestrutura</h2>
+                <p>As autoridades de transporte estão conscientes do problema crónico da Saída 31. Existe um plano estrutural aprovado para remodelar a geometria da via e melhorar os acessos.</p>
+                <p><strong>Orçamento Previsto:</strong> 11 milhões de dólares.</p>
+                <p><strong>Previsão de Início das Obras:</strong> 2028.</p>
+                <p>Até lá, a recomendação para os condutores locais passa pela utilização de rotas alternativas ou pela prática do sistema de fecho éclair (<em>zipper merge</em>) para reduzir o impacto nas faixas expressas.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            Informação informativa sobre a mobilidade urbana na Interstate 278 (BQE).
+        </div>
+    </div>
+
+</body>
+</html>
